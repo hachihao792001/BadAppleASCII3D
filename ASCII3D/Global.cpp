@@ -3,6 +3,8 @@
 COLORREF backBuffer[HEIGHT][WIDTH];
 COLORREF frontBuffer[HEIGHT][WIDTH];
 
+float* pDepthBuffer = new float[WIDTH * HEIGHT];
+
 HANDLE hConsole;
 
 std::string intToString(int i) {

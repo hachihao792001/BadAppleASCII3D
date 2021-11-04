@@ -18,7 +18,7 @@ const COLORREF WHITE = RGB(255, 255, 255);
 
 #define WIDTH 200
 #define HEIGHT 100
-#define FPS 10
+#define FPS 30
 
 #define KEY_UP 72
 #define KEY_DOWN 80
@@ -27,6 +27,8 @@ const COLORREF WHITE = RGB(255, 255, 255);
 
 extern COLORREF backBuffer[HEIGHT][WIDTH];
 extern COLORREF frontBuffer[HEIGHT][WIDTH];
+
+extern float* pDepthBuffer;
 
 extern HANDLE hConsole;
 
